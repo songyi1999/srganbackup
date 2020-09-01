@@ -43,7 +43,7 @@ network_D:
 path:
   pretrain_model_G: 
   strict_load: true
-  resume_state: ~
+  resume_state: '/content/drive/Shared drives/songyi1999/srganbackup/experiments/002_RRDB_ESRGANx2_DIV2K/training_state/24500.state'
   
 
 #### training settings: learning rate scheme, loss
