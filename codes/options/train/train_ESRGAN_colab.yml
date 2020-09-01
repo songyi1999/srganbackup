@@ -11,8 +11,8 @@ datasets:
   train:
     name: DIV2K
     mode: LQGT
-    dataroot_GT: ./DIV2K_train_HR_BasicSR_sub
-    dataroot_LQ: ./DIV2K_train_HR_BasicSR_sub_mod/LR/x4
+    dataroot_GT: ./DIV2K_train_HR_sub
+    dataroot_LQ: ./DIV2K_train_HR_sub_sm/LR/x4
 
     use_shuffle: true
     n_workers: 6  # per GPU
