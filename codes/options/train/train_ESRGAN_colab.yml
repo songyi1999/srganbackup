@@ -44,7 +44,7 @@ path:
   pretrain_model_G: 
   strict_load: true
   resume_state: ~
-  experiments_root: '/content/drive/My Drive/dataset/esrgan'
+  experiments_root: "/content/drive/My Drive/dataset/esrgan"
 
 #### training settings: learning rate scheme, loss
 train:
