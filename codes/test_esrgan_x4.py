@@ -14,7 +14,7 @@ result_folder='/content/drive/Shared drives/songyi1999/srganbackup/results_set14
 
 def build_image(model_path):
     save_folder= result_folder +  model_path.split('/')[-1].split('_')[0]
-    os.system("mkdir  -p "+save_folder)
+    os.system("mkdir  -p '"+save_folder+"'")
     device = torch.device('cpu')
     model = arch.RRDBNet(3, 3, 64, 23, gc=32)
     model.load_state_dict(torch.load(model_path), strict=True)
