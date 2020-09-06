@@ -47,7 +47,7 @@ def build_image(model_path):
 
 
 model_list=glob.glob(model_paths+"/*_G.pth")
-dirlist= [ x.split('/')[-1].split('_')[0]    for x in  model_list  ]
-print(dirlist)
-# for model_path in  model_list:
-#     build_image(model_path)
+# dirlist= [ x.split('/')[-1].split('_')[0]    for x in  model_list  ]
+# print(dirlist)
+for model_path in  model_list:
+    build_image(model_path)
