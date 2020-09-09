@@ -1,0 +1,6 @@
+使用预训练训练好后,正式训练时需修改  配置文件的 
+ which_model_G: RRDBNet 的RRDBNet 改为 MSRResNet
+ 
+  pretrain_model_G: 改为 模型的路径
+  strict_load: true  改为 False
+   resume_state: ~
